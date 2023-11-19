@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: lightgray;
+  justify-content: center;
+  width: 400px;
+}
+.card {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 102, 0),
+    rgb(247, 180, 92)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.first_line {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.nike-logo {
+  width: 50px;
+  height: auto;
+}
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text-h1 {
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.text-p {
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+}
+.backdrop-text {
+  font-size: 300px;
+  color: white;
+  opacity: 0.2;
+  z-index: 2;
+}
+.nike-shoe {
+  position: relative;
+  bottom: 11px;
+  z-index: 10;
+  height: 70%;
+}
+.bg_botton {
+  background-color: white;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.buy_btn {
+  padding: 12px 31px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid rgb(62, 8, 211);
+  color: rgb(62, 8, 211);
+}
+.category {
+  color: gray;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
